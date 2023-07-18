@@ -391,7 +391,9 @@
 /*CTA SECTION*/
 /* *********************** */
 .section-cta {
-  padding: 9.6rem 0;
+  /* top/right/bottom/left */
+  /* top/horizontal/left */
+  padding: 0.001rem 0 12.8rem;
 }
 .cta {
   display: grid;
@@ -460,7 +462,11 @@
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 .footer {
-  padding: 9.6rem 0;
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 .logo-col {
   display: flex;
@@ -496,6 +502,7 @@
   line-height: 1.6;
 }
 .address {
+  margin-bottom: 2.4rem;
 }
 .footer-nav {
   list-style: none;
